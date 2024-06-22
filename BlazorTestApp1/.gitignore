@@ -1,0 +1,70 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+
+# Ignore any Publish or temp files
+*.publishsettings
+*.pfx
+*.publishproj
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+
+# Rider
+.idea/
+
+# Ignore Node.js dependencies (if any)
+node_modules/
+
+# Ignore NPM debug log
+npm-debug.log*
+
+# Ignore .NET Core tooling
+.vs/
+*.dbmdl
+*.jfm
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear as part of unit tests
+coverage/
+coverage.xml
+test_results/
+TestResults/
+
+# Logs
+*.log
