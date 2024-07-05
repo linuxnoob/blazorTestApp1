@@ -1,5 +1,6 @@
-﻿@page "/pizza"
-@rendermode InteractiveServer
+﻿  
+  @page "/pizza"
+
 <div class="main">
   <h1>Blazing Pizzas</h1>
   <ul class="pizza-cards">
@@ -18,13 +19,12 @@
     }
   </ul>
 </div>
+    @code {
+        List<BlazingPizza.PizzaSpecial> specials = new();
 
-@code {
-    List<BlazingPizza.PizzaSpecial> specials = new();
-
-    protected override void OnInitialized()
-    {
-        specials.AddRange(new List<BlazingPizza.PizzaSpecial>
+        protected override void OnInitialized()
+        {
+            specials.AddRange(new List<BlazingPizza.PizzaSpecial>
         {
             new BlazingPizza.PizzaSpecial { Name = "The Baconatorizor", BasePrice =  11.99M, Description = "It has EVERY kind of bacon", ImageUrl="img/pizzas/bacon.jpg"},
             new BlazingPizza.PizzaSpecial { Name = "Buffalo chicken", BasePrice =  12.75M, Description = "Spicy chicken, hot sauce, and blue cheese, guaranteed to warm you up", ImageUrl="img/pizzas/meaty.jpg"},
@@ -35,3 +35,4 @@
         });
     }
 }
+  
