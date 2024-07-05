@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
+#pragma warning disable IDE0130 // Namespace does not match folder structure
 namespace BlazingPizza
+#pragma warning restore IDE0130 // Namespace does not match folder structure
 {
     /// <summary>
     /// Represents a customized pizza as part of an order
